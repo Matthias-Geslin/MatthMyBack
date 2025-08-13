@@ -1,0 +1,24 @@
+{
+    "name": "matthias/matth-my-back",
+    "description": "Backend Website",
+    "license": "MIT",
+    "type": "project",
+    "version": "0.1.0",
+    "require": {
+        "twig/twig": "^3.21"
+    },
+    "require-dev": {
+        "tracy/tracy": "^2.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Matthias",
+            "email": "m.geslin974@gmail.com"
+        }
+    ]
+}
